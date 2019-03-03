@@ -17,9 +17,6 @@
 ##  LEARN
 ##  
 ##  But keep my name on top of it!
-##  
-##  And i will not to be held responsible for the consequences
-##  of what you might use it for!
 ##
 ##  Enjoy :)
 ##  
@@ -36,7 +33,7 @@ teststring = "the quick brown fox jumps over the lazy dog"
 alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 #receives the whole text
-r = remote("2018shell.picoctf.com","18990")
+r = remote("2018shell.picoctf.com",#######)## enter port nr
 cipherText = r.recvall()
 
 versionIndex = 0
